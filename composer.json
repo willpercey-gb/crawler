@@ -1,0 +1,30 @@
+{
+  "name": "uwebpro/crawler",
+  "description": "Crawl through website DOM, XML, JSON.",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "willpercey",
+      "email": "info@uwebpro.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "UWebPro\\Crawler\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-dom": "*",
+    "ext-simplexml": "*",
+    "symfony/dom-crawler": "^6.3",
+    "uwebpro/substring": "^4.0",
+    "illuminate/collections": ">=8|>=9|>=10",
+    "thecodingmachine/safe": "^2.5",
+    "uwebpro/dom-transformer": "^1.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
