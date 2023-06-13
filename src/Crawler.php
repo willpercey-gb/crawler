@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Crawler;
+namespace UWebPro\Crawler;
 
 use Illuminate\Support\Collection;
 use UWebPro\DOMTransformer\DOMTransformer;
